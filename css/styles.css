@@ -10,6 +10,14 @@ body{
     color: #434455;
     background-color: var(--c-primary-light);
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+a{
+        text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 
 .logo {
@@ -20,7 +28,6 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
     text-transform: uppercase;
 }
 .logo .accent {
@@ -29,21 +36,28 @@ body{
 
 .nav-link {
     color: var(--c-dunckel);
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-        text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .nav-link:active {
 color: var(--c-primary-dunckel);
+}
+.adress{
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
 }
 .effect-section{
     background-color: var(--c-dunckel);
 }
 .effect{
 color: var(--c-primary-light);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
 }
 .effect-button{
     background: var(--c-but);
