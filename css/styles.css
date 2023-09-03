@@ -1,30 +1,57 @@
-.logo-b {
-    color: #4D5AE5;
+
+:root{
+    --c-primary-light: #fff;
+    --c-primary-dunckel: #404BBF;
+    --c-dunckel: #2E2F42;
+    --c-but: #4D5AE5;
+
 }
-.logo-e {
-    color: #2E2F42;
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    color: var(--c-dunckel);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo .accent {
+ 
+    color: var(--c-primary-dunckel);
 }
 
 .nav-link {
-    color:#2E2F42;
+    color: var(--c-dunckel);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+        text-decoration: none;
 }
 .nav-link:active {
-    color: #404BBF;
+color: var(--c-primary-dunckel);
 }
 .effect-section{
-    background-color: #2E2F42;
+    background-color: var(--c-dunckel);
 }
 .effect{
-color: #ffffff;
+color: var(--c-primary-light);
 }
 .effect-button{
-    background: #4D5AE5;
-    color: #ffffff;
+    background: var(--c-but);
+color: var(--c-primary-light);
     border: none;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
 }
 .effect-button:hover {
-    background: #404BBF;
-    color: #ffffff;
+    background: var(--c-primary-dunckel);
+color: var(--c-primary-light);
 }
