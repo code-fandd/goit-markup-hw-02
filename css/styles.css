@@ -75,9 +75,10 @@ color: var(--c-primary-dunckel);
     color: var(--c-primary-light);
     font-family: "Roboto", sans-serif;
         font-size: 56px;
-         font-weight: 700;
-        line-height: 1.06em;
+        font-weight: 700;
+        line-height: 1.07em;
         letter-spacing: 0.02em;
+        text-align: center;
 }
 .effect-button{
     background: var(--c-but);
@@ -85,8 +86,15 @@ color: var(--c-primary-light);
     border: none;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .effect-button:hover {
     background: var(--c-primary-dunckel);
 color: var(--c-primary-light);
+}
+.effect-button:focus{
+    background: var(--c-primary-dunckel);
 }
