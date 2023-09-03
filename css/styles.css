@@ -72,11 +72,12 @@ color: var(--c-primary-dunckel);
     background-color: var(--c-dunckel);
 }
 .effect{
-color: var(--c-primary-light);
+    color: var(--c-primary-light);
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 0.04em;
+        font-size: 56px;
+         font-weight: 700;
+        line-height: 1.06em;
+        letter-spacing: 0.02em;
 }
 .effect-button{
     background: var(--c-but);
