@@ -21,7 +21,7 @@ ul{
 }
 
 .logo {
-    color: var(--c-primary-dunckel);
+    color: var(--c-but);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -43,6 +43,9 @@ ul{
 }
 .nav-link:active {
 color: var(--c-primary-dunckel);
+}
+.nav-link:focus {
+    color: var(--c-primary-dunckel);
 }
 .adress{
         font-weight: 400;
