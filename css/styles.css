@@ -106,3 +106,10 @@ color: var(--c-primary-light);
         color: #2e2f42
 }
 
+.advantages-p{
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+
+}
+
