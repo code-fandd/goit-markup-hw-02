@@ -4,10 +4,11 @@
     --c-primary-dunckel: #404BBF;
     --c-dunckel: #2E2F42;
     --c-but: #4D5AE5;
+    --c-haup: #434455;
 
 }
 body{
-    color: #434455;
+    color: var(--c-haup);
     background-color: var(--c-primary-light);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -47,11 +48,26 @@ color: var(--c-primary-dunckel);
 .nav-link:focus {
     color: var(--c-primary-dunckel);
 }
+.nav-link:hover {
+    color: var(--c-primary-dunckel);
+}
 .adress{
+        font-style: normal;
+}
+.adress-a{
         font-weight: 400;
         line-height: 1.5em;
         letter-spacing: 0.02em;
+        font-style: normal;
+        color: var(--c-haup);
+    }
+.adress-a:hover{
+color: var(--c-primary-dunckel);
 }
+.adress-a:focus {
+color: var(--c-primary-dunckel);
+}
+
 .effect-section{
     background-color: var(--c-dunckel);
 }
