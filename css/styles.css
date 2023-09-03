@@ -5,6 +5,7 @@
     --c-dunckel: #2E2F42;
     --c-but: #4D5AE5;
     --c-haup: #434455;
+    --c-back-team: #F4F4FD;
 
 }
 body{
@@ -111,5 +112,18 @@ color: var(--c-primary-light);
     letter-spacing: 0.02em;
     font-weight: 400;
 
+}
+
+.sec-team {
+    background-color: var(--c-back-team);
+    
+}
+.team-h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--c-dunckel);
 }
 
