@@ -13,18 +13,18 @@ body{
 }
 
 .logo {
-    color: var(--c-dunckel);
+    color: var(--c-primary-dunckel);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     text-transform: uppercase;
 }
 .logo .accent {
-     color: var(--c-primary-dunckel);
+     color: var(--c-dunckel);
 }
 
 .nav-link {
