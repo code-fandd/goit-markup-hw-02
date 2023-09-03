@@ -1,0 +1,30 @@
+.logo-b {
+    color: #4D5AE5;
+}
+.logo-e {
+    color: #2E2F42;
+}
+
+.nav-link {
+    color:#2E2F42;
+}
+.nav-link:active {
+    color: #404BBF;
+}
+.effect-section{
+    background-color: #2E2F42;
+}
+.effect{
+color: #ffffff;
+}
+.effect-button{
+    background: #4D5AE5;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+}
+.effect-button:hover {
+    background: #404BBF;
+    color: #ffffff;
+}
