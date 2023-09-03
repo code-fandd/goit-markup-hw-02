@@ -7,9 +7,9 @@
 
 }
 body{
-    font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: var(--c-primary-light);
+    font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -24,8 +24,7 @@ body{
     text-transform: uppercase;
 }
 .logo .accent {
- 
-    color: var(--c-primary-dunckel);
+     color: var(--c-primary-dunckel);
 }
 
 .nav-link {
