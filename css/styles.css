@@ -63,10 +63,10 @@ color: var(--c-primary-dunckel);
         color: var(--c-haup);
     }
 .adress-a:hover{
-color: var(--c-primary-dunckel);
+    color: var(--c-primary-dunckel);
 }
 .adress-a:focus {
-color: var(--c-primary-dunckel);
+    color: var(--c-primary-dunckel);
 }
 
 .effect-section{
@@ -75,15 +75,15 @@ color: var(--c-primary-dunckel);
 .effect{
     color: var(--c-primary-light);
     font-family: "Roboto", sans-serif;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 1.07em;
-        letter-spacing: 0.02em;
-        text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 .effect-button{
     background: var(--c-but);
-color: var(--c-primary-light);
+    color: var(--c-primary-light);
     border: none;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
@@ -94,7 +94,7 @@ color: var(--c-primary-light);
 }
 .effect-button:hover {
     background: var(--c-primary-dunckel);
-color: var(--c-primary-light);
+    color: var(--c-primary-light);
 }
 .effect-button:focus{
     background: var(--c-primary-dunckel);
@@ -104,7 +104,7 @@ color: var(--c-primary-light);
         font-weight: 500;
         line-height: 1.2em;
         letter-spacing: 0.02em;
-        color: #2e2f42
+        color: var(--c-dunckel);
 }
 
 .advantages-p{
@@ -118,12 +118,34 @@ color: var(--c-primary-light);
     background-color: var(--c-back-team);
     
 }
-.team-h {
+.our-team {
+    color: var(--c-dunckel);
+    text-align: center;
     font-size: 36px;
-    line-height: 1.11;
+    font-weight: 700;
+    line-height: 1.11em;
+    letter-spacing: 0.02emx;
+    text-transform: capitalize;
+}
+.team-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--c-dunckel);
+}
+
+.list-backgr-light{
+    background-color: #FFFFFF;
+}
+.staff-description{
+    color: var(--c-haup);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
 }
 
