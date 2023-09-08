@@ -27,8 +27,9 @@ ul{
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-/*   line-height: 1.17;*/
+    line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-transform: uppercase;
 }
 .logo .accent {
@@ -42,7 +43,7 @@ ul{
     color: var(--c-dunckel);
     font-style: normal;
     font-weight: 500;
-   /*line-height: 1.5;*/
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .nav-link:active {
@@ -59,7 +60,7 @@ color: var(--c-primary-dunckel);
 }
 .adress-a{
         font-weight: 400;
- /*  line-height: 1.5em;*/
+        line-height: 1.5em;
         letter-spacing: 0.02em;
         font-style: normal;
         color: var(--c-haup);
@@ -79,7 +80,7 @@ color: var(--c-primary-dunckel);
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
-/*  line-height: 1.07em;*/
+    line-height: 1.07em;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -87,10 +88,10 @@ color: var(--c-primary-dunckel);
     background: var(--c-but);
     color: var(--c-primary-light);
     border: none;
-/*  padding: 16px 32px 16px 32px;
-    border-radius: 4px;*/
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
     font-weight: 500;
-/*   line-height: 1.5;*/
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -104,13 +105,13 @@ color: var(--c-primary-dunckel);
 .advantages{
         font-size: 20px;
         font-weight: 500;
-    /*    line-height: 1.2em;*/
+        line-height: 1.2em;
         letter-spacing: 0.02em;
         color: var(--c-dunckel);
 }
 
 .advantages-p{
-/*   line-height: 1.5em;*/
+    line-height: 1.5em;
     letter-spacing: 0.02em;
     font-weight: 400;
 
@@ -125,14 +126,14 @@ color: var(--c-primary-dunckel);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-/*  line-height: 1.11em;*/
+    line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-h {
     font-weight: 500;
     font-size: 20px;
-/*    line-height: 1.2;*/
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -147,14 +148,14 @@ color: var(--c-primary-dunckel);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-/*  line-height: 1.5em;*/
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 }
 .p-footer {
     color: var(--c-back-team);
     font-size: 16px;
     font-weight: 400;
-/*   line-height: 1.5;*//* */
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
