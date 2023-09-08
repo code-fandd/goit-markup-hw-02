@@ -30,7 +30,6 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-transform: uppercase;
 }
 .logo .accent {
      color: var(--c-dunckel);
@@ -88,8 +87,8 @@ color: var(--c-primary-dunckel);
     background: var(--c-but);
     color: var(--c-primary-light);
     border: none;
-    padding: 16px 32px 16px 32px;
-    border-radius: 4px;
+/*  padding: 16px 32px 16px 32px;
+    border-radius: 4px;*/
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
