@@ -35,6 +35,9 @@ ul{
 .logo .accent {
      color: var(--c-dunckel);
 }
+.accent-light{
+        color: var(--c-back-team);
+}
 
 .nav-link {
     color: var(--c-dunckel);
@@ -124,7 +127,7 @@ color: var(--c-primary-dunckel);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11em;
-    letter-spacing: 0.02emx;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .team-h {
@@ -146,6 +149,13 @@ color: var(--c-primary-dunckel);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
+.p-footer {
+    color: var(--c-back-team);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
